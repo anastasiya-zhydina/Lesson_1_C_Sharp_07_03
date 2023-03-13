@@ -4,18 +4,18 @@ Console.Write("Введите число: ");
 int n = int.Parse(Console.ReadLine()!);
 int count = 1;
 
-while (count <= n)
+if (n<0)
 {
-  if (n < 0)
+  Console.Write("Поддерживается ввод только положительных целых чисел.");
+}
+else
+{
+  while (count <= n)
   {
-    Console.Write("Необходимо вводить положительные целые числа.");
-  }
-  else
-  {
-    if (count % 2 == 0)
+    if (count%2 == 0)
     {
       Console.Write(count + " ");
-    } 
+    }
     count++;
   }
-} 
+}
