@@ -52,11 +52,11 @@ int MaxNumbers(int[] arr)
   return max;
 }
 
-int DifferenceMaxMin(int max, int min)
+/*int DifferenceMaxMin(int max, int min)
 {
   int number = (max - min);
   return number;
-}
+}*/
 
 void PrintArray(int[] arr)
 {
